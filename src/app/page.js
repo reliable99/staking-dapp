@@ -1,10 +1,10 @@
 import React from 'react'
+import DisplayPanel from '@/components/display-panel/DisplayPanel'
 
 const page = () => {
   return (
      <div >
-      <h1 className='text-red-700 text-center text-bold text-5xl mt-10 '>Hello world</h1>
-      <Home />
+      <DisplayPanel />
        </div>
   )
 }
